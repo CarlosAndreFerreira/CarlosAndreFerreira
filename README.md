@@ -22,7 +22,8 @@ Read-only by default, hidden-text stripping before content reaches the model, us
 
 #### Research
 
-- *Agentic AI for Root Cause Analysis in Cybersecurity Incident Response* (CIRA-MAS) — full paper, **CENTERIS 2026**
+- **[Agentic AI for Root Cause Analysis in Cybersecurity Incident Response: A Multi-Agent Architecture Based on LLMs and Knowledge Graphs](https://frontend.scms.scika.org/uploads/scms/u1508-ed29-pub1873-zScyv_Pb4ghHvQfp4Si0eiNZOA-lJQoi.pdf)** — full paper, CENTERIS 2026, with Henrique São Mamede  
+  CIRA-MAS: four LangGraph agents (ingestion, knowledge, causal reasoning, response) over LightRAG graph retrieval on a CVE → ATT&CK → IoC schema, producing auditable incident reports with a causal chain for SOC analysts. Architecture and falsifiable evaluation agenda; empirical validation is next.
 
 #### Connect
 
