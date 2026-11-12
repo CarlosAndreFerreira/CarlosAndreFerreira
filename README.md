@@ -18,14 +18,15 @@ Senior Engineer at **Critical Software** (safety-critical software) · PhD candi
 Same harness, code-verified correctness: Claude 9/9 vs local Qwen 0/9 on the spec-driven tasks (Fisher p = 0.00002); in lighter harnesses the local model reaches 9/12 clean passes. Energy measured per run.
 
 **[moodle-obsidian-mcp](https://github.com/CarlosAndreFerreira/moodle-obsidian-mcp)** — MCP server for Moodle, built for untrusted content.
-Read-only by default, hidden-text stripping before content reaches the model, user confirmation via MCP elicitation for every write, token never sent off the configured host, SSO login through a signed one-time passport. 32 tools, CI on Linux/macOS/Windows.
+Read-only by default, hidden-text stripping before content reaches the model, user confirmation via MCP elicitation for every write, token never sent off the configured host, SSO login through a signed one-time passport. 32 tools, CI on Linux/macOS/Windows. Published on [PyPI](https://pypi.org/project/moodle-obsidian-mcp/) and indexed as a reference prompt-injection defense on [XERJ Corpus Hub](https://hub.xerj.org/contributors/CarlosAndreFerreira).
 
 #### Research
 
-- **[Agentic AI for Root Cause Analysis in Cybersecurity Incident Response: A Multi-Agent Architecture Based on LLMs and Knowledge Graphs](https://frontend.scms.scika.org/uploads/scms/u1508-ed29-pub1873-zScyv_Pb4ghHvQfp4Si0eiNZOA-lJQoi.pdf)** — full paper, CENTERIS 2026, with Henrique São Mamede  
+- **[Agentic AI for Root Cause Analysis in Cybersecurity Incident Response: A Multi-Agent Architecture Based on LLMs and Knowledge Graphs](https://frontend.scms.scika.org/uploads/scms/u1508-ed29-pub1873-zScyv_Pb4ghHvQfp4Si0eiNZOA-lJQoi.pdf)** — full paper, CENTERIS 2026, with Henrique São Mamede.
   CIRA-MAS: four LangGraph agents (ingestion, knowledge, causal reasoning, response) over LightRAG graph retrieval on a CVE → ATT&CK → IoC schema, producing auditable incident reports with a causal chain for SOC analysts. Architecture and falsifiable evaluation agenda; empirical validation is next.
 
 #### Connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-carlos--andre--ferreira--ai.netlify.app-000000?style=flat-square&logo=netlify)](https://carlos-andre-ferreira-ai.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-carlos--andré--ferreira-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/carlos-andr%C3%A9-ferreira-8367a912a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-carlos--andre--ferreira-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/carlos-andr%C3%A9-ferreira-8367a912a/)
+[![XERJ Corpus Hub](https://img.shields.io/badge/XERJ_Corpus_Hub-Contributor-181717?style=flat-square)](https://hub.xerj.org/contributors/CarlosAndreFerreira)
