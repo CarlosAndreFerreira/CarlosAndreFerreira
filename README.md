@@ -14,6 +14,9 @@ Senior Engineer at **Critical Software** (safety-critical software) · PhD resea
 
 #### Featured
 
+**[ai-quality-pack](https://github.com/CarlosAndreFerreira/ai-quality-pack)** — A quality layer for AI coding agents: a completion gate that runs the project's own checks, and a verdict that comes from commands that ran, not from the agent's report.
+Reproduction tests recorded before the change, counterexamples run on the base commit, an independent evaluator, a guard on the files that check the agent, and a hash-chained run log. Standard-library Python, for Claude Code, Codex and OpenCode. Measurements are published with their limits, negative results included: on hard SWE-bench issues an LLM evaluator did not separate wrong patches from correct ones on two models (agreement near zero), and the central claim, fewer false "done", is not measured yet.
+
 **[viriato-bench](https://github.com/CarlosAndreFerreira/viriato-bench)** — How much agentic coding moves from a frontier API to a local 27B model on a mini-PC (AMD Strix Halo)?
 Same harness, code-verified correctness: Claude 9/9 vs local Qwen 0/9 on the spec-driven tasks (Fisher p = 0.00002); in lighter harnesses the local model reaches 9/12 clean passes. Energy measured per run.
 
