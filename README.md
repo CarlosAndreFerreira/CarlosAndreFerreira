@@ -1,7 +1,7 @@
 ### Carlos André Ferreira — AI Engineer
 
 I build LLM agents and the verification around them: evaluation, security and observability, so they hold up in production.
-Senior Engineer at **Critical Software** (safety-critical software) · PhD candidate in Web Science & Technology (UTAD / Universidade Aberta) · ~8 years in industry · Viseu, Portugal
+Senior Engineer at **Critical Software** (safety-critical software) · PhD researcher in Web Science & Technology (UTAD / Universidade Aberta) · ~8 years in industry · Viseu, Portugal
 
 #### What I work on
 
